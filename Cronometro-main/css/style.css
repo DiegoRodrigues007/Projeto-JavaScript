@@ -1,0 +1,82 @@
+body {
+  background-color: #f2dbce;
+  font-size: 50px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+  display: block;
+  padding: 18%;
+  width: 100px;
+  margin: auto;
+  margin-top: 5rem;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #01000d;
+}
+
+.cronometro {
+  position: absolute;
+
+  left: 580px;
+  top: 300px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.start {
+  position: absolute;
+  text-align: center;
+  bottom: 30%;
+  left: 35%;
+  padding: 10px;
+  width: 8rem;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #6ad496;
+  border: 1px solid #6ad496;
+  margin-right: 10px;
+}
+
+.reset {
+  position: absolute;
+  text-align: center;
+  bottom: 30%;
+  right: 35%;
+  padding: 10px;
+  width: 8rem;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #6ad496;
+  border: 1px solid #6ad496;
+  margin-left: 5px;
+}
+
+.pause {
+  position: absolute;
+  text-align: center;
+  bottom: 30%;
+  right: 45%;
+  padding: 10px;
+  width: 8rem;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #6ad496;
+  border: 1px solid #6ad496;
+  margin-right: 5px;
+}
+
+.start:hover {
+  background-color: #732a24;
+  border: 1px solid #732a24;
+}
+.reset:hover {
+  border: 1px solid #732a24;
+  background-color: #732a24;
+}
+
+.pause:hover {
+  border: 1px solid #732a24;
+  background-color: #732a24;
+}

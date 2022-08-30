@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cronometro</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div class="cronometro" id="tela">00:00:00</div>
+      <button type="button" class="start" id="start" onclick="start()" >Start</button>
+      <button type="button" class="reset" id="reset" onclick="pause()">Pausar</button>
+      <button type="button" class="pause" id="stop" onclick="stop()">Limpar</button>
+    </div>
+  </body>
+
+  <script src="js/index.js"></script>
+</html>
